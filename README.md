@@ -1,4 +1,4 @@
-# auto-ros-installer
+# Auto ROS Installer
 
 This project contains shell scripts for automatically installing ROS1 and ROS2 on your system. These scripts simplify the installation process and help you quickly set up the required ROS environment.
 
