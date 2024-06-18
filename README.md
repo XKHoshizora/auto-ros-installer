@@ -26,7 +26,7 @@ Before running the scripts, make sure your system meets the following prerequisi
    cd auto-ros-installer
    ```
 
-2. Run the script for the desired ROS version:
+2. Add permissions and run the script for the desired ROS version:
 
    - For ROS1 (ROS Noetic):
 
@@ -43,6 +43,8 @@ Before running the scripts, make sure your system meets the following prerequisi
      ```
 
 3. Follow the on-screen instructions to complete the installation.
+
+4. After the installation completes, please restart your terminal to ensure all changes take effect.
 
 ## Contributing
 
