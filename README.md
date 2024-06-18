@@ -31,12 +31,14 @@ Before running the scripts, make sure your system meets the following prerequisi
    - For ROS1 (ROS Noetic):
 
      ```sh
+     chmod +x ./install_ros1.sh
      ./install_ros1.sh
      ```
 
    - For ROS2 (from ROS2 Humble and later LTS versions):
 
      ```sh
+     chmod +x ./install_ros2.sh
      ./install_ros2.sh
      ```
 
