@@ -22,7 +22,7 @@ Before running the scripts, make sure your system meets the following prerequisi
 1. Clone the repository to your local machine:
 
    ```sh
-   git clone https://github.com/yourusername/auto-ros-installer.git
+   git clone https://github.com/XKHoshizora/auto-ros-installer.git
    cd auto-ros-installer
    ```
 
