@@ -1,11 +1,12 @@
 # Auto ROS Installer
 
-This project contains shell scripts for automatically installing ROS1 and ROS2 on your system. These scripts simplify the installation process and help you quickly set up the required ROS environment.
+This project contains shell scripts for automatically installing and uninstalling ROS1 and ROS2 on your system. These scripts simplify the installation and uninstallation process and help you quickly set up and remove the required ROS environment.
 
 ## Contents
 
 - `install_ros1.sh`: Script for automatically installing ROS1 (ROS Noetic).
 - `install_ros2.sh`: Script for automatically installing ROS2 (from ROS2 Humble and later LTS versions).
+- `uninstall_ros.sh`: Script for automatically uninstalling a specified ROS version.
 
 ## Usage
 
@@ -13,7 +14,7 @@ This project contains shell scripts for automatically installing ROS1 and ROS2 o
 
 Before running the scripts, make sure your system meets the following prerequisites:
 
-- A supported version of Linux (e.g., Ubuntu 18.04 or later).
+- A supported version of Linux (e.g., Ubuntu 20.04 or later).
 - `curl` and `wget` installed on your system.
 - Proper permissions to execute shell scripts (you might need to use `sudo`).
 
@@ -26,7 +27,7 @@ Before running the scripts, make sure your system meets the following prerequisi
    cd auto-ros-installer
    ```
 
-2. Add permissions and run the script for the desired ROS version:
+2. Run the script for the desired ROS version:
 
    - For ROS1 (ROS Noetic):
 
@@ -45,6 +46,17 @@ Before running the scripts, make sure your system meets the following prerequisi
 3. Follow the on-screen instructions to complete the installation.
 
 4. After the installation completes, please restart your terminal to ensure all changes take effect.
+
+### Uninstallation
+
+1. To uninstall a specified ROS version, run the `uninstall_ros.sh` script with the ROS version as an argument. For example:
+
+   ```sh
+   chmod +x uninstall_ros.sh
+   sudo ./uninstall_ros.sh <ROS_version_name>
+   ```
+
+2. Follow the on-screen instructions to complete the uninstallation.
 
 ## Contributing
 
