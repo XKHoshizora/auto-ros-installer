@@ -1,67 +1,71 @@
 # Auto ROS Installer
 
-This project contains shell scripts for automatically installing and uninstalling ROS1 and ROS2 on your system. These scripts simplify the installation and uninstallation process and help you quickly set up and remove the required ROS environment.
+[中文](README.md) | [English](README_en.md)
 
-## Contents
+## 项目简介
 
-- `install_ros1.sh`: Script for automatically installing ROS1 (ROS Noetic).
-- `install_ros2.sh`: Script for automatically installing ROS2 (from ROS2 Humble and later LTS versions).
-- `uninstall_ros.sh`: Script for automatically uninstalling a specified ROS version.
+本项目包含用于自动安装和卸载 ROS1 和 ROS2 的 Shell 脚本。这些脚本简化了安装和卸载过程，帮助您快速设置和移除所需的 ROS 环境。
 
-## Usage
+## 内容
 
-### Prerequisites
+- `install_ros1.sh`：用于自动安装 ROS1（ROS Noetic）的脚本。
+- `install_ros2.sh`：用于自动安装 ROS2（ROS2 Humble 或更新的 LTS 版本）的脚本。
+- `uninstall_ros.sh`：用于自动卸载指定 ROS 版本的脚本。
 
-Before running the scripts, make sure your system meets the following prerequisites:
+## 使用方法
 
-- A supported version of Linux (e.g., Ubuntu 20.04 or later).
-- `curl` and `wget` installed on your system.
-- Proper permissions to execute shell scripts (you might need to use `sudo`).
+### 先决条件
 
-### Installation
+在运行这些脚本之前，请确保您的系统满足以下先决条件：
 
-1. Clone the repository to your local machine:
+- 支持的 Linux 版本（例如 Ubuntu 20.04 或更高版本）。
+- 系统上已安装 `curl` 和 `wget`。
+- 有执行 Shell 脚本的适当权限（可能需要使用 `sudo`）。
+
+### 安装
+
+1. 将仓库克隆到您的本地机器：
 
    ```sh
    git clone https://github.com/XKHoshizora/auto-ros-installer.git
    cd auto-ros-installer
    ```
 
-2. Run the script for the desired ROS version:
+2. 运行所需 ROS 版本的脚本：
 
-   - For ROS1 (ROS Noetic):
+   - 对于 ROS1（ROS Noetic）：
 
      ```sh
      chmod +x ./install_ros1.sh
      ./install_ros1.sh
      ```
 
-   - For ROS2 (from ROS2 Humble and later LTS versions):
+   - 对于 ROS2（ROS2 Humble 或更新的 LTS 版本）：
 
      ```sh
      chmod +x ./install_ros2.sh
      ./install_ros2.sh
      ```
 
-3. Follow the on-screen instructions to complete the installation.
+3. 按照屏幕上的指示完成安装。
 
-4. After the installation completes, please restart your terminal to ensure all changes take effect.
+4. 安装完成后，请重新启动终端以确保所有更改生效。
 
-### Uninstallation
+### 卸载
 
-1. To uninstall a specified ROS version, run the `uninstall_ros.sh` script with the ROS version as an argument. For example:
+1. 要卸载指定的 ROS 版本，请运行 `uninstall_ros.sh` 脚本并将 ROS 版本作为参数传递。例如：
 
    ```sh
    chmod +x uninstall_ros.sh
    sudo ./uninstall_ros.sh <ROS_version_name>
    ```
 
-2. Follow the on-screen instructions to complete the uninstallation.
+2. 按照屏幕上的指示完成卸载。
 
-## Contributing
+## 贡献
 
-Contributions are welcome! If you have any improvements or bug fixes, please open an issue or submit a pull request.
+欢迎贡献！如果您有任何改进或错误修复，请提交一个 issue 或 pull request。
 
-## License
+## 许可证
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+本项目使用 MIT 许可证。有关更多详细信息，请参见 [LICENSE](LICENSE) 文件。
