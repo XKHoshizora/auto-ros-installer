@@ -69,3 +69,9 @@ Contributions are welcome! If you have any improvements or bug fixes, please ope
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact Information
+
+Project Maintainer: XKHoshizora - hoshizoranihon@gmail.com
+
+Project Link: [https://github.com/XKHoshizora/auto-ros-installer](https://github.com/XKHoshizora/auto-ros-installer)

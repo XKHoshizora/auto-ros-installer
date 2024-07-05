@@ -69,3 +69,9 @@
 ## 许可证
 
 本项目使用 MIT 许可证。有关更多详细信息，请参见 [LICENSE](LICENSE) 文件。
+
+## 联系方式
+
+项目维护者：XKHoshizora - hoshizoranihon@gmail.com
+
+项目链接：[https://github.com/XKHoshizora/auto-ros-installer](https://github.com/XKHoshizora/auto-ros-installer)
