@@ -75,3 +75,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Project Maintainer: XKHoshizora - hoshizoranihon@gmail.com
 
 Project Link: [https://github.com/XKHoshizora/auto-ros-installer](https://github.com/XKHoshizora/auto-ros-installer)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=XKHoshizora/auto-ros-installer&type=Date)](https://star-history.com/#XKHoshizora/auto-ros-installer&Date)

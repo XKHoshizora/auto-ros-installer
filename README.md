@@ -75,3 +75,7 @@
 项目维护者：XKHoshizora - hoshizoranihon@gmail.com
 
 项目链接：[https://github.com/XKHoshizora/auto-ros-installer](https://github.com/XKHoshizora/auto-ros-installer)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=XKHoshizora/auto-ros-installer&type=Date)](https://star-history.com/#XKHoshizora/auto-ros-installer&Date)
